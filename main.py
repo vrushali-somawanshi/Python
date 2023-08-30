@@ -13,3 +13,6 @@ print(type(y))
 
 if 9 < 15:
     print("9 is less than 15!")
+
+a = "Cherry"
+print(a)
