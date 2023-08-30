@@ -41,6 +41,14 @@ print(a+b)
 # c= a+b
 # print(c)
 
+a = 9
+b = 10
+if a > 10:
+    print("a is greater b")
+else:
+    print("a is not greater than b")
+
+
 a = "Ocean"
 b = "Test"
 print(a + " " + b)
@@ -54,3 +62,10 @@ itemno = 12345
 price = 50.95
 myorder = "I want {} pieces of item {} for {} dollars."
 print(myorder.format(quantity, itemno, price))
+
+a = 9
+b = 10
+if a > 10:
+    print("a is greater than b")
+else:
+    print("a is not greater than b")
