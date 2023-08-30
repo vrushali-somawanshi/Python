@@ -64,3 +64,9 @@ else:
 
 languages = ["C", "C++", "Java", "Python", "C#"]  # list
 print(languages)
+
+languages = ["C", "C++", "Java", "Python", "C#"]  # list
+print(languages[2:5])
+
+
+
