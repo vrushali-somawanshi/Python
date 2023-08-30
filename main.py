@@ -25,3 +25,6 @@ print(a.upper())
 
 b = "W3 School"
 print(b.lower())
+
+z = " Python is a high level language!....  "
+print(z.strip())
