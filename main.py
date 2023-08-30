@@ -16,3 +16,6 @@ if 9 < 15:
 
 a = "Cherry"
 print(a)
+
+c = "Python"
+print(c[1:5])
