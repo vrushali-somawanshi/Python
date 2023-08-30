@@ -10,3 +10,6 @@ x = 9
 y = "Jerry"
 print(type(x))
 print(type(y))
+
+if 9 < 15:
+    print("9 is less than 15!")
