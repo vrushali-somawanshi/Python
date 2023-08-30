@@ -40,3 +40,8 @@ b = 20
 print(a+b)
 # c= a+b
 # print(c)
+
+a = "Ocean"
+b = "Test"
+print(a + " " + b)
+
