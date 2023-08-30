@@ -45,3 +45,8 @@ a = "Ocean"
 b = "Test"
 print(a + " " + b)
 
+age = 25
+txt = "My name is Cherry, and I am {} years old"
+print(txt.format(age))
+
+
