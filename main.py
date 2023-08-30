@@ -19,3 +19,6 @@ print(a)
 
 c = "Python"
 print(c[1:5])
+
+a = "World..."
+print(a.upper())
