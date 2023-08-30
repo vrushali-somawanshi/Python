@@ -28,3 +28,6 @@ print(b.lower())
 
 z = " Python is a high level language!....  "
 print(z.strip())
+
+y = "Cloud"
+print(y.replace("C", "G"))
