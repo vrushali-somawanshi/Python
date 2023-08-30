@@ -49,4 +49,8 @@ age = 25
 txt = "My name is Cherry, and I am {} years old"
 print(txt.format(age))
 
-
+quantity = 9
+itemno = 12345
+price = 50.95
+myorder = "I want {} pieces of item {} for {} dollars."
+print(myorder.format(quantity, itemno, price))
