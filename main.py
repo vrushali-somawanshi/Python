@@ -22,3 +22,6 @@ print(c[1:5])
 
 a = "World..."
 print(a.upper())
+
+b = "W3 School"
+print(b.lower())
