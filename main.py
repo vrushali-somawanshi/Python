@@ -74,6 +74,10 @@ print(languages[:2])
 languages = ["C", "C++", "Java", "Python", "C#"]  # list
 print(languages[3:])
 
+languages = ["C", "C++", "Java", "Python", "C#"]  # list
+languages[3] = "Testing"
+print(languages)
+
 
 
 
