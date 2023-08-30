@@ -31,3 +31,6 @@ print(z.strip())
 
 y = "Cloud"
 print(y.replace("C", "G"))
+
+a = "Cloud Vmware"
+print(a.split())
