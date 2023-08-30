@@ -41,14 +41,6 @@ print(a+b)
 # c= a+b
 # print(c)
 
-a = 9
-b = 10
-if a > 10:
-    print("a is greater b")
-else:
-    print("a is not greater than b")
-
-
 a = "Ocean"
 b = "Test"
 print(a + " " + b)
@@ -69,3 +61,6 @@ if a > 10:
     print("a is greater than b")
 else:
     print("a is not greater than b")
+
+languages = ["C", "C++", "Java", "Python", "C#"]  # list
+print(languages)
