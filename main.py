@@ -78,6 +78,9 @@ languages = ["C", "C++", "Java", "Python", "C#"]  # list
 languages[3] = "Testing"
 print(languages)
 
+fruit = ["apple", "banana", "cherry"]
+for x in fruit:
+    print(x)
 
 
 
