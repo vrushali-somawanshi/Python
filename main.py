@@ -107,5 +107,15 @@ c = 390.8
 print(int(b))   # convert float to integer
 print(int(c))   # convert float to integer
 
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 
+newlist = [x for x in fruits if "a" in x]
+
+print(newlist)
+
+fruits = ["Cherry", "Watermelon", "Grapes", "Mango"]
+
+newlist = [x for x in fruits if "r" in x]
+
+print(newlist)
 
