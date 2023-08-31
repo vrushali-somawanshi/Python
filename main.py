@@ -119,3 +119,7 @@ newlist = [x for x in fruits if "r" in x]
 
 print(newlist)
 
+fruits = ["Cherry", "Watermelon", "Grapes", "Mango"]
+fruits.sort()
+print(fruits)
+
