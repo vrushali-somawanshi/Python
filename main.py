@@ -101,6 +101,11 @@ fruit = ["apple", "Banana", "Cherry"]
 fruit.clear()
 print(fruit)
 
+b = 12.0
+c = 390.8
+
+print(int(b))   # convert float to integer
+print(int(c))   # convert float to integer
 
 
 
