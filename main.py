@@ -86,6 +86,11 @@ fruit = ["apple", "banana", "cherry"]
 fruit.remove("banana")
 print(fruit)
 
+fruit = ["apple", "banana", "cherry"]
+fruit.pop(2)
+print(fruit)
+
+
 
 
 
