@@ -97,6 +97,10 @@ print(fruit)
 fruit = ["apple", "banana", "cherry", "Mango"]
 del fruit
 
+fruit = ["apple", "Banana", "Cherry"]
+fruit.clear()
+print(fruit)
+
 
 
 
