@@ -149,3 +149,6 @@ y[1] = "kiwi"
 x = tuple(y)
 
 print(x)
+
+subject = {"Marathi", "History", "Math", "English"}
+print(subject)
