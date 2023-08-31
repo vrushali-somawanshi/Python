@@ -152,3 +152,10 @@ print(x)
 
 subject = {"Marathi", "History", "Math", "English"}
 print(subject)
+
+fruit = {"apple", "banana", "cherry"}
+for x in fruit:
+    print(x)
+
+fruit = {"apple", "banana", "cherry"}
+print("banana" in fruit)
