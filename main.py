@@ -90,7 +90,9 @@ fruit = ["apple", "banana", "cherry"]
 fruit.pop(2)
 print(fruit)
 
-
+fruit = ["apple", "banana", "cherry", "Mango"]
+fruit.pop()
+print(fruit)
 
 
 
