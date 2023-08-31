@@ -140,3 +140,5 @@ print(list3)
 mytuple = ("John", "Jerry", "Merry")
 print(mytuple)
 
+mytuple = ("John", "Jerry", "Merry")
+print(mytuple[1])
