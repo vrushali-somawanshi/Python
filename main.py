@@ -94,6 +94,9 @@ fruit = ["apple", "banana", "cherry", "Mango"]
 fruit.pop()
 print(fruit)
 
+fruit = ["apple", "banana", "cherry", "Mango"]
+del fruit
+
 
 
 
