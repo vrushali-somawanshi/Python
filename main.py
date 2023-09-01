@@ -166,3 +166,11 @@ dictionary = {
   "year": 1998
 }
 print(dictionary)
+
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1998
+}
+x = car["model"]  # Access dictionary items
+print(x)
