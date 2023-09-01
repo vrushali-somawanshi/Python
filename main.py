@@ -159,3 +159,10 @@ for x in fruit:
 
 fruit = {"apple", "banana", "cherry"}
 print("banana" in fruit)
+
+dictionary = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1998
+}
+print(dictionary)
