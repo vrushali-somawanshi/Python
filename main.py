@@ -174,3 +174,9 @@ car = {
 }
 x = car["model"]  # Access dictionary items
 print(x)
+
+i = 1
+while i < 8:
+    print(i)
+    i += 1
+
