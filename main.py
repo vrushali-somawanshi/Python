@@ -132,7 +132,8 @@ newlist = fruits.copy()
 print(fruits)
 
 list1 = ["v", "r", "u", "s", "h"]
-list2 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# list2 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+list2 = ["s", "o", "m", "a", "w", "a",  "n", "s", "h", "i"]
 
 list3 = list1 + list2
 print(list3)
@@ -193,14 +194,16 @@ while i < 6:
     if i == 3:
         continue
     print(i)
+def my_fruit():       # function definition or function create
+ print("Hello I'm from fruit function")
 
-def my_fruit():       # function defination or function create
-    print("Hello I'm from fruit function")
-
-my_fruit()      # function calling
+my_fruit()  # function calling
 
 def add_numbers(num1, num2):  # pass num 1 and num2  parameters(variable) in function
     sum = num1 + num2
     print("Sum: ", sum)
     add_numbers(9, 9)         # pass arguments(values) in function
 
+
+x = lambda a : a + 10   # add 10 to argument a (lambda function use)
+print(x(5))
