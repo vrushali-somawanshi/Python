@@ -211,4 +211,6 @@ print(x(5))
 x = lambda a,b : a * b  # multiply argument a with argument b and return result
 print(x(9,9))
 
-
+Bike = ["Ninja", "KTM", "Hunter", "Activa"]  # Create Array
+x = Bike[1]  # Access Array
+print(x)
