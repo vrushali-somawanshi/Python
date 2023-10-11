@@ -207,3 +207,8 @@ def add_numbers(num1, num2):  # pass num 1 and num2  parameters(variable) in fun
 
 x = lambda a : a + 10   # add 10 to argument a (lambda function use)
 print(x(5))
+
+x = lambda a,b : a * b  # multiply argument a with argument b and return result
+print(x(9,9))
+
+
