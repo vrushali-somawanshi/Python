@@ -214,3 +214,15 @@ print(x(9,9))
 Bike = ["Ninja", "KTM", "Hunter", "Activa"]  # Create Array
 x = Bike[1]  # Access Array
 print(x)
+
+Bike = ["Ninja" ,"KTM", "Hunter", "Activa"]
+Bike[0] = "Access"  # modify array
+print(Bike)
+
+Bike = ["Ninja", "KTM", "Hunter", "Activa"]
+x = len(Bike)  # return the number of element in the array using length keyword
+print(x)
+
+Bike = ["Ninja", "KTM", "Hunter", "Activa"]
+Bike.append("Chetak")
+print(Bike)
