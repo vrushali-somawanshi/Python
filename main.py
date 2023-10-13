@@ -224,5 +224,17 @@ x = len(Bike)  # return the number of element in the array using length keyword
 print(x)
 
 Bike = ["Ninja", "KTM", "Hunter", "Activa"]
-Bike.append("Chetak")
+Bike.append("Chetak")  # add element using append keyword
 print(Bike)
+
+class MyClass: # create class
+ x = 9
+
+p1 = MyClass()     #object create
+print(p1.x)
+
+
+print(MyClass)
+
+
+
