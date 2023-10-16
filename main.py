@@ -227,14 +227,20 @@ Bike = ["Ninja", "KTM", "Hunter", "Activa"]
 Bike.append("Chetak")  # add element using append keyword
 print(Bike)
 
-class MyClass: # create class
- x = 9
 
-p1 = MyClass()     #object create
-print(p1.x)
+class Bike:  # define or create clss
+    name: " "  # class attributes
+    gear = 0   # class attributes
+
+bike1 = Bike()   # create object of class # syntax - objectname = classname
+
+bike1.name = "Ninja"  # access attributes and assign new values
+bike1.gear = 9  # access attributes and assign new values
+
+print(f"Name: {bike1.name}, Gears: {bike1.gear} ")
 
 
-print(MyClass)
+
 
 
 
