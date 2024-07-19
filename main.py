@@ -228,16 +228,29 @@ Bike.append("Chetak")  # add element using append keyword
 print(Bike)
 
 
-class Bike:  # define or create clss
+class Bike:    # define or create class
     name: " "  # class attributes
     gear = 0   # class attributes
 
 bike1 = Bike()   # create object of class # syntax - objectname = classname
 
 bike1.name = "Ninja"  # access attributes and assign new values
-bike1.gear = 9  # access attributes and assign new values
+bike1.gear = 9        # access attributes and assign new values
 
-print(f"Name: {bike1.name}, Gears: {bike1.gear} ")
+print(f"Name: {bike1.name}, Gears: {bike1.gear} ") #f string use mandatory(if not use then string not print)
+
+
+ """ 
+x = "awesome"  #global variable (outside function)
+
+def myfunc(): # function defination
+  x = "fantastic"  # local variable (inside function)
+  print("Python is " + x)
+
+myfunc()  #function call
+
+print("Python is " + x) #(1st print inside local variable then print global variable)
+"""
 
 
 
